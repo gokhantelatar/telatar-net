@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "telatar.net"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Ana Sayfa
+      - href: hakkinda.qmd
+        text: Hakkında
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

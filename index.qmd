@@ -1,0 +1,13 @@
+---
+title: "Merhaba"
+---
+
+Bu sayfa Quarto ile yazıldı ve Cloudflare Pages üzerinde yayınlanıyor.
+
+Aşağıdaki grafik her derlemede R tarafından yeniden üretiliyor:
+
+```{r}
+#| echo: false
+plot(cars, pch = 19, col = "steelblue",
+     xlab = "Hız", ylab = "Duruş mesafesi")
+```
